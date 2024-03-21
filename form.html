@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>웹프로그래밍 데모</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- 메뉴 -->
+    <nav class="navbar">
+      <div class="container">
+        <div class="logo">WebDemo</div>
+        <ul class="nav">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="about.html">About</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+          <li>
+            <a href="form.html">Form</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!--메인섹션-->
+    <section class="main">
+      <div class="container">
+        <h1>Form</h1>
+
+        <form>
+          <fieldset>
+            <label for="id">아이디</label>
+            <input type="text" id="id" name="id" size="20" placeholder="아이디를 입력하세요." autofocus />
+
+            <br />
+            <label for="pass">패스워드</label>
+            <input type="password" name="passwd" id="pass" placeholder="비밀번호를 입력하세요." />
+            <br />
+            <textarea name="" id="" cols="30" rows="5"></textarea>
+            <input type="submit" value="로그인" />
+            <input type="reset" value="초기화" />
+          </fieldset>
+          Search <input type="search" value="search" />
+          <br />
+          URL <input type="url" required />
+          <br />
+          Email <input type="email" name="" id="" />
+          <br />
+          Tel <input type="tel" name="" id="" value="000-0000-0000" readonly />
+
+          <button>버튼</button>
+          <input type="button" value="input/button" />
+          <input type="file" name="file1" />
+          <input type="hiddem" name="secret" value="password1234" />
+
+          <!-- <fieldset>
+            <legend>상품선택</legend>
+            <label for="s3"><input type="checkbox" name="" id="s3" value="s3" /> 선물용 3KG</label>
+            <label for="s5"><input type="checkbox" name="" id="s5" value="s5" /> 선물용 5KG</label>
+            <label for="s7"><input type="checkbox" name="" id="s7" value="s7" /> 선물용 7KG</label>
+            <br />
+            <label for="h3"><input type="checkbox" name="" id="h3" value="h3" /> 가정용 3KG</label>
+            <label for="h5"><input type="checkbox" name="" id="h5" value="h5" /> 가정용 5KG</label>
+            <label for="h7"><input type="checkbox" name="" id="h7" value="h7" /> 가정용 7KG</label>
+            <br />
+            <p>포장선택</p>
+            <label for="yes"><input type="radio" name="gift" id="yes" value="yes" />선물포장</label>
+            <label for="no"><input type="radio" name="gift" id="no" value="no" />선물포장안함</label>
+          </fieldset>
+          Number<input type="range" name="" id="" min="0" max="10" value="1" step="2" />
+          <br /> -->
+          Date
+          <input type="datetime-local" name="" id="" />
+          <input type="time" />
+        </form>
+      </div>
+    </section>
+
+    <script src="main.js"></script>
+  </body>
+</html>
