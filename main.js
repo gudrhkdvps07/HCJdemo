@@ -9,7 +9,7 @@ function lightblue() {
 function yellow() {
   document.body.style.backgroundColor = 'yellow';
 }
-function linen() {
+function reset() {
   document.body.style.backgroundColor = 'linen';
 }
 

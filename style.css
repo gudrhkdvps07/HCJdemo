@@ -6,8 +6,8 @@
 
 body {
   font-size: 14px;
-  /* line-height: 2; */
-  color: #333;
+  line-height: 10;
+  color: black;
   background-color: linen;
 }
 
@@ -18,7 +18,7 @@ ul {
 .navbar {
   background-color: black;
   color: white;
-  height: 40px;
+  height: 50px;
 }
 
 .container {
@@ -32,6 +32,7 @@ ul {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  margin-right: 100px;
   height: 100%;
 }
 
@@ -57,17 +58,19 @@ ul {
 }
 
 .navbar .logo {
-  font-size: large;
+  font-size: 20px;
   font-weight: bold;
+  margin: 0 auto;
 }
 
 button {
-  padding: 5px 6px;
-  margin: 2px 4px;
+  padding: 6px 7px;
+  margin: 6px 4px;
   font: large;
   font-weight: bold;
   background-color: lightgrey;
-  border-radius: 7px;
+  border-radius: 10px;
+  border-width: 1.5px;
 }
 
 button:hover {
@@ -78,4 +81,9 @@ button:hover {
 .main {
   color: black;
   line-height: 2;
+}
+
+.container h1:nth-child(1) {
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
