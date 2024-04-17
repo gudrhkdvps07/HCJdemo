@@ -57,6 +57,15 @@ ul {
   color: aquamarine;
 }
 
+.navbar a:active {
+  border-bottom: 2px #fff solid;
+  color: rgb(127, 155, 255);
+}
+
+.navbar a:focus {
+  color: grey;
+}
+
 .navbar .logo {
   font-size: 20px;
   font-weight: bold;

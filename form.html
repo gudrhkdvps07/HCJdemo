@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>웹프로그래밍 데모</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="formstyle.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/formstyle.css" />
   </head>
   <body>
     <!-- 메뉴 -->
@@ -37,13 +37,28 @@
         <form>
           <fieldset>
             <label for="name">이름</label>
-            <input type="text" id="name" name="name" size="20" placeholder="이름을 입력하세요" autofocus />
+            <input
+              type="text"
+              id="name"
+              name="name"
+              size="20"
+              placeholder="이름을 입력하세요"
+              autofocus
+            />
             <br />태어난 년도<input type="datetime-local" name="" id="" />
             <input type="time" />
 
             <br /><br />
             <h5>연락처를 남겨주세요</h5>
-            전화번호 <input type="tel" name="" id="" value="" placeholder="000-0000-0000" required />
+            전화번호
+            <input
+              type="tel"
+              name=""
+              id=""
+              value=""
+              placeholder="000-0000-0000"
+              required
+            />
             <br />
             이메일<input type="email" name="" id="" />
             <br />
@@ -54,7 +69,8 @@
             <input type="reset" value="초기화" />
           </fieldset>
           <br />
-          Search <input type="search" value="" placeholder="검색어를 입력하세요" />
+          Search
+          <input type="search" value="" placeholder="검색어를 입력하세요" />
           <input type="button" value="검색" />
         </form>
       </div>
