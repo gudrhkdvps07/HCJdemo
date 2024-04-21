@@ -31,8 +31,8 @@
 
     <!--메인섹션-->
     <section class="main">
-      <div class="container">
-        <h1 class="aboutf">Form</h1>
+      <div class="main-container">
+        <h1 class="about">Form</h1>
 
         <form>
           <fieldset>
@@ -45,7 +45,11 @@
               placeholder="이름을 입력하세요"
               autofocus
             />
-            <br />태어난 년도<input type="datetime-local" name="" id="" />
+            <br />태어난 년도<input
+              type="datetime-local"
+              name="time"
+              id="time"
+            />
             <input type="time" />
 
             <br /><br />
@@ -53,14 +57,18 @@
             전화번호
             <input
               type="tel"
-              name=""
-              id=""
-              value=""
+              name="phone"
+              id="phone"
               placeholder="000-0000-0000"
               required
             />
             <br />
-            이메일<input type="email" name="" id="" />
+            이메일<input
+              type="email"
+              name="mail"
+              id="mail"
+              placeholder="email 주소를 입력하세요"
+            />
             <br />
             URL <input type="url" placeholder=" 자신의URL 주소를 입력" />
             <br />
